@@ -19,12 +19,12 @@
     width: 100%;
 }
 
-img:hover {
+.shake {
     
-    animation: shake 2.0s;
+    animation: shake 1.0s;
   
  
-    animation-iteration-count: infinite;
+    animation-iteration-count: 2s;
   }
   
   @keyframes shake {
@@ -39,4 +39,16 @@ img:hover {
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .h1 {
+    font-family: /
+    ;
+  }
+
+  .answer {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
   }
