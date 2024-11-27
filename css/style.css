@@ -25,6 +25,8 @@
   
  
     animation-iteration-count: 2s;
+
+    
   }
   
   @keyframes shake {
@@ -52,3 +54,8 @@
     padding-bottom: 50px;
     padding-left: 80px;
   }
+
+  img {
+    max-width: 500px;
+  }
+

@@ -13,6 +13,7 @@ function ask() {
     const randomIndex = Math.floor(Math.random() * responses.length);
     let answerDiv=document.getElementById('answer');
     answerDiv.textContent = responses[randomIndex];
+    document.getElementById("ask-button").classList.remove('shake');
 
   }
 
